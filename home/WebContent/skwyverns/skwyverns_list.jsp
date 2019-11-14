@@ -96,13 +96,12 @@
 		
 		
 		<table class="list_table">
-			<tr>
+			<tr border="1">
 				<th>ID</th>
 				<th>제목</th>
 				<th>작성자</th>
 				<th>내용</th>
 			</tr>
-			
 			<c:forEach var="i" items="${skwyvernsList}">
 				<tr>
 					<td><a href="javascript:editcheck(${i.id})">${i.id}</a></td>
