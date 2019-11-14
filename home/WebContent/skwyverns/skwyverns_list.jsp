@@ -114,7 +114,7 @@
 		</table>
 	</form>
          	<div class="botton">
- 			<input type="button" align=right value="글쓰기" onClick="addcheck()">
+ 			<input type="button" class="button" align=right value="글쓰기" onClick="addcheck()">
           	</div>
             </article>
          </section>
