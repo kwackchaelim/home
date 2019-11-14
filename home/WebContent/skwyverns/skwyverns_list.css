@@ -159,7 +159,7 @@
 		float: right;
 		padding: 10px;
 	}
-	/* table */
+	/* list_table */
 	.list_table {
 		width: 100%;
 		border-top: 1px solid #e65a29;
@@ -201,6 +201,19 @@
 		width: 50%;
 	}
 	a {
+		color: #000;
+	}
+	/* view_table */
+	.view_table {
+		width: 80%;
+		border: 1px solid #e65a29;
+    	border-collapse: collapse;
+	}
+	.view_table th {
+		border-right: 1px solid #e65a29;
+		border-bottom: 1px solid #e65a29;
+		background: #E69143;
+		padding: 20px 10px;
 		color: #000;
 	}
 	/*푸터*/
