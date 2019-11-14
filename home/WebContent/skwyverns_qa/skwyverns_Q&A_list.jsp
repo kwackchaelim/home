@@ -99,7 +99,6 @@
 				<th>ID</th>
 				<th>제목</th>
 				<th>작성자</th>
-				<th>내용</th>
 			</tr>
 			
 			<c:forEach var="i" items="${skwyvernsList}">
@@ -107,7 +106,6 @@
 					<td><a href="javascript:editcheck(${i.id})">${i.id}</a></td>
 					<td>${i.title}</td>
 					<td>${i.name}</td>
-					<td>${i.memo}</td>
 				</tr>
 			</c:forEach>			
 		</table>
