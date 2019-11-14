@@ -115,7 +115,7 @@
 /*콘텐츠 시작*/
 	#content {
 		width: 1200px;
-		height: 550px;
+		height: 600px;
 		margin: 0 auto;
 		overflow: hidden;
 	}
@@ -174,7 +174,6 @@
 		height: 20px;
 	}
 	.button {
-		height: 25px;
 		line-height: 20px;
 		vertical-align: middle;
 		background: #e65a29;
@@ -231,6 +230,9 @@
 		width: 100%;
 		text-align: center;
 		margin-top: 20px;
+	}
+	.bottom_button > .button {
+		padding: 10px 15px;
 	}
 	/*푸터*/
 	#main_footer {

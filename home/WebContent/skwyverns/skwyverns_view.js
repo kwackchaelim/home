@@ -4,20 +4,27 @@ window.onload = function() {
 	var action = document.form1.action.value;
 
 	if(action=="edit") {
-		document.getElementById("insert").disabled=true;
-		// document.getElementById("update").disabled=false;
-		// document.getElementById("delete").disabled=false;
+		document.getElementById("insert").style.display="none";
 	} else if(action=="add") {
 		// document.getElementById("insert").disabled=false;
-		document.getElementById("update").disabled=true;
-		document.getElementById("delete").disabled=true;
+		document.getElementById("update").style.display="none";
+		document.getElementById("delete").style.display="none";
 	}
 } 
 
 function insertcheck() {
 	// post방식
 	document.form1.action.value="insert";
-	document.form1.submit();
+	
+	if(document.form1.title.value==""){
+		alert("제목을 입력하세요");
+	} else if(document.form1.name.value==""){
+		alert("작성자를 입력하세요");
+	} else if(document.form1.memo.value==""){
+		alert("내용을 입력하세요");
+	} else {
+		document.form1.submit();
+	}
 }
 
 function updatecheck() {
