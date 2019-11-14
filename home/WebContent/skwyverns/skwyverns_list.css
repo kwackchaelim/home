@@ -216,6 +216,17 @@
 		padding: 20px 10px;
 		color: #000;
 	}
+	.view_table td {
+		border-bottom: 1px dotted #949494;
+		padding: 10px 5px;
+	}
+	.view_table input {
+		width: 90%;
+		height: 20px;
+	}
+	.view_table textarea {
+		width: 90%;
+	}
 	/*푸터*/
 	#main_footer {
 		/*중앙정렬*/

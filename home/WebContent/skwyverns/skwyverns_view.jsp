@@ -106,10 +106,10 @@
 			</tr>
 		</table>
 			<div class="bottom_button">
-				<input type="button" id="insert" value="입력" onClick="insertcheck()">
-				<input type="button" id="update" value="수정" onClick="updatecheck()">
-				<input type="button" id="delete" value="삭제" onClick="deletecheck()">
-				<input type="button" id="back" value="돌아가기" onClick="backcheck()">
+				<input type="button" class="button" id="insert" value="입력" onClick="insertcheck()">
+				<input type="button" class="button" id="update" value="수정" onClick="updatecheck()">
+				<input type="button" class="button" id="delete" value="삭제" onClick="deletecheck()">
+				<input type="button" class="button" id="back" value="돌아가기" onClick="backcheck()">
 			</div>
 
 	</form>
