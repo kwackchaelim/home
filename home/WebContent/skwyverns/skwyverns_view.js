@@ -48,6 +48,7 @@ function deletecheck() {
 
 function backcheck() {
 	// post방식
+	alert("저장하지 않고 나가시겠습니까");
 	document.form1.action.value="list";
 	document.form1.submit();
 	// history.go(-1);
