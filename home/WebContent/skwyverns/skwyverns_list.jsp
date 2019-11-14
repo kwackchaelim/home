@@ -89,14 +89,13 @@
 		<form name="form1" method="post" action="SkwyvernsController">
 		<input type="hidden" name="action" value="list">
 		<input type="hidden" name="id" value=0>
-	
+		<div class="search">	
+			<input type="text" class="search_text" align="left " name="searchName" value=${skwyvernsDTO.searchName}>
+    		<input type="button" class="button" id="list" align=right value="조회" onClick="retrivalcheck()">
+		</div>
+		
+		
 		<table class="list_table">
-			<tr>
-				<td colspan=7 align=right>
-    				<input type="text" align="left " name="searchName" value=${skwyvernsDTO.searchName}>
-    				<input type="button" id="list" align=right value="조회" onClick="retrivalcheck()">
-				</td>
-			</tr>
 			<tr>
 				<th>ID</th>
 				<th>제목</th>
