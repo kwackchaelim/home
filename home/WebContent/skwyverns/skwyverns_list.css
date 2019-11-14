@@ -115,7 +115,7 @@
 /*콘텐츠 시작*/
 	#content {
 		width: 1200px;
-		height: 500px;
+		height: 550px;
 		margin: 0 auto;
 		overflow: hidden;
 	}
@@ -227,13 +227,18 @@
 	.view_table textarea {
 		width: 90%;
 	}
+	.bottom_button {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
 	/*푸터*/
 	#main_footer {
 		/*중앙정렬*/
 		width: 1050px;
 		margin: 0 auto;
-		margin-bottom: 10px;
 		padding: 10px;
+		margin-bottom: 5px;
 		/*글자정렬*/
 		text-align: center;
 	}
