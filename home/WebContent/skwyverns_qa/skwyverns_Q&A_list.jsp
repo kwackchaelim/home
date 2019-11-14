@@ -90,13 +90,11 @@
 		<input type="hidden" name="action" value="list">
 		<input type="hidden" name="id" value=0>
 	
-		<table border=1>
-			<tr>
-				<td colspan=7 align=right>
-    				<input type="text" align="left " name="searchName" value=${skwyvernsDTO.searchName}>
-    						<input type="button" id="list" align=right value="조회" onClick="retrivalcheck()">
-				</td>
-			</tr>
+		<div class="search">
+			<input type="text" class="search_text" align="left " name="searchName" value=${skwyvernsDTO.searchName}>
+    		<input type="button" class="button" id="list" align=right value="조회" onClick="retrivalcheck()">
+		</div>
+		<table class="list_table">
 			<tr>
 				<th>ID</th>
 				<th>제목</th>
@@ -112,11 +110,10 @@
 					<td>${i.memo}</td>
 				</tr>
 			</c:forEach>			
-			
 		</table>
 	</form>
-         	<div class="botton">
- 			<input type="button" align=right value="글쓰기" onClick="addcheck()">
+         <div class="botton">
+ 			<input type="button" class="button" align=right value="글쓰기" onClick="addcheck()">
           	</div>
             </article>
          </section>

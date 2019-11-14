@@ -94,9 +94,8 @@
     		<input type="button" class="button" id="list" align=right value="조회" onClick="retrivalcheck()">
 		</div>
 		
-		
 		<table class="list_table">
-			<tr border="1">
+			<tr>
 				<th>ID</th>
 				<th>제목</th>
 				<th>작성자</th>

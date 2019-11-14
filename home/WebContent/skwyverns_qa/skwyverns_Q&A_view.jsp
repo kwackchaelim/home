@@ -91,7 +91,7 @@
 		<input type="hidden" name="action" value=${action}>
 		<input type="hidden" name="id" value=${skwyvernsDTO.id}>
 		
-		<table>
+		<table class="view_table">
 			<tr>
 				<th>제목</th>
 				<td><input type=text size=20 name=title value=${skwyvernsDTO.title}></td>
@@ -104,15 +104,13 @@
 				<th>내용</th>
 				<td><textarea rows="15" cols="20" name=memo value=${skwyvernsDTO.memo}></textarea></td>
 			</tr>
-			<tr>
-				<td colspan=2 align=center>
-					<input type="button" id="insert" value="입력" onClick="insertcheck()">
-					<input type="button" id="update" value="수정" onClick="updatecheck()">
-					<input type="button" id="delete" value="삭제" onClick="deletecheck()">
-					<input type="button" id="back" value="돌아가기" onClick="backcheck()">
-				</td>
-			</tr>
 		</table>
+		<div class="bottom_button">
+			<input type="button" class="button" id="insert" value="입력" onClick="insertcheck()">
+			<input type="button" class="button" id="update" value="수정" onClick="updatecheck()">
+			<input type="button" class="button" id="delete" value="삭제" onClick="deletecheck()">
+			<input type="button" class="button" id="back" value="돌아가기" onClick="backcheck()">
+		</div>
 	</form>
             </article>
          </section>
