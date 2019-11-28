@@ -94,15 +94,15 @@
 		<table class="view_table">
 			<tr>
 				<th>제목</th>
-				<td><input type=text size=20 name=title value=${skwyvernsDTO.title}></td>
+				<td><input type=text name=title value=${skwyvernsDTO.title}></td>
 			</tr>
 			<tr>
 				<th>작성자</th>
-				<td><input type=text size=20 name=name value=${skwyvernsDTO.name}></td>
+				<td><input type=text name=name value=${skwyvernsDTO.name}></td>
 			</tr>
 			<tr>
 				<th>내용</th>
-/				<td><textarea rows="15" cols="20" name=memo value=${skwyvernsDTO.memo}></textarea></td>
+				<td><input type=text name=memo value=${skwyvernsDTO.memo}></td>
 			</tr>
 		</table>
 			<div class="bottom_button">
