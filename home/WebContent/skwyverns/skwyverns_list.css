@@ -223,8 +223,8 @@
 		width: 90%;
 		height: 20px;
 	}
-	.view_table textarea {
-		width: 90%;
+	.last_text {
+		line-height: 100px;
 	}
 	.bottom_button {
 		width: 100%;

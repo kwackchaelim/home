@@ -79,7 +79,6 @@
         </li>
 	</ul>
     </div>
-
     </header>
     	<div id="content">
     	<section id="main_section">

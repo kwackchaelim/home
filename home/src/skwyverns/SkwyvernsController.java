@@ -118,9 +118,10 @@ public class SkwyvernsController extends HttpServlet {
 					
 					// List를 setAttribute
 					request.setAttribute("skwyvernsList", skwyvernsList);
-
+					
 					// 결과 조회를 위하여 조회화면 호출
 					pageContext.forward("skwyverns_list.jsp");
+					
 					
 				} else {
 					throw new Exception("DB 입력오류");

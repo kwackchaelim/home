@@ -102,7 +102,7 @@
 			</tr>
 			<tr>
 				<th>내용</th>
-				<td><textarea rows="15" cols="20" name=memo value=${skwyvernsDTO.memo}></textarea></td>
+/				<td><textarea rows="15" cols="20" name=memo value=${skwyvernsDTO.memo}></textarea></td>
 			</tr>
 		</table>
 			<div class="bottom_button">
