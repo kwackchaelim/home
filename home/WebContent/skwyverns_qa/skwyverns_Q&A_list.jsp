@@ -101,12 +101,14 @@
 				<th>작성자</th>
 			</tr>
 			
+			<% int count = 1; %>
 			<c:forEach var="i" items="${skwyvernsList}">
 				<tr>
-					<td><a href="javascript:editcheck(${i.id})">${i.id}</a></td>
+					<td><a href="javascript:editcheck(${i.id})"><%= count %></a></td>
 					<td>${i.title}</td>
 					<td>${i.name}</td>
 				</tr>
+				<% count ++; %>
 			</c:forEach>			
 		</table>
 	</form>
