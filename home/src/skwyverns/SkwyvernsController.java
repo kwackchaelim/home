@@ -131,10 +131,8 @@ public class SkwyvernsController extends HttpServlet {
 				
 			} else if(action.equals("list")) {
 
-				
 				//조회결과
 				List<SkwyvernsDTO> skwyvernsList = skwyvernsDAO.getDBList();
-
 				
 				// List를 setAttribute
 				request.setAttribute("skwyvernsList", skwyvernsList);

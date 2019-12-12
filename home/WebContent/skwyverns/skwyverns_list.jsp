@@ -14,7 +14,6 @@
 <title>자유게시판</title>
 </head>
 <body>
-<input type="hidden" class="is-loaded" value="${isLoaded}" />
 <header id="main_header">
     	<nav id="main_gnb">
          	<ul>

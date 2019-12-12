@@ -1,7 +1,3 @@
-$(document).ready(function (){
-	if ($(".is-loaded").val() != "true") retrivalcheck();
-});
-
 function retrivalcheck() {
 			
 	// post방식 디펄트가 list
