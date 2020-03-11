@@ -1,0 +1,7 @@
+
+10월 10, 2019 04:47:18.57 NEW SESSION
+10월 10, 2019 04:47:18.57 
+10월 10, 2019 04:47:18.61 KLIB_SelfTest return : KLR_OK
+
+10월 24, 2019 13:55:26.91 NEW SESSION
+10월 24, 2019 13:55:26.91 [13932:5168:1024/135526.913:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
